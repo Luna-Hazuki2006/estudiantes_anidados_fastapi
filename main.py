@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException, status
 from typing import Union, List
-from pydantic import BaseModel, HttpUrl
+from pydantic import BaseModel
 from datetime import datetime
 
 app = FastAPI()
